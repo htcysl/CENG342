@@ -1,22 +1,16 @@
+#include <matrixMultiply.h>
 #include <hellomake.h>
 #include <stdio.h>
 #include <stdlib.h>
 
-int main( ){
-    
+int main(int argc,char *argv[]){
      
-     long  seed = 20050111076 ;
-     int lower = 1, upper = 100 ;
-     int range = upper-lower+1   ;   
-    
-     srand(seed) ;   
-        
-     // generated random number between ? 
-     for(int i=0;i<10 ;i++) {
-       printf("%5d\n",rand()%range)  ;    
- }   
 
-    //calling a function from header file
+  // homework2 
+     matrixMultiply(atoi(argv[1]),atoi(argv[2]),argv[3])  ;
+
+  // homework1
+   //calling a function from header file
     myPrintHelloMake();
      
 
