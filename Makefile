@@ -1,4 +1,4 @@
-CC=gcc
+CC=mpicc
 CFLAGS=-I.
 DEPS = matrixMultiply.h hellomake.h
 
